@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.abababoburundi.bi/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jan 2025 15:34:28 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap">
+  <link rel="stylesheet" href="login.csss">
+
+  <title>Ababo-Burundi</title>
+  <style>
+    /*img{
+        width: 200px;
+        height: 300px;
+    }
+        */
+    th{
+        font-size: 2em;
+        background-color: black;
+        color: white;
+    }
+    body{
+        font-family: sans-serif;
+        font-size: 1em;
+        text-align: center;
+       /* background-color: yellow;*/
+    }
+
+    table{
+        background-color: white;
+        width: 100%;
+    }
+    td{
+        padding: 25px;
+    }
+    p{
+        color: white;
+    }
+    .ano{
+        font-size: 20px;
+    }
+    .span1 {
+      font-size: 20px;
+    }
+    .span2 {
+      font-size: 20px;
+    }
+    .span3 {
+      font-size: 20px;
+    }
+    .titre{
+      background-color:black;
+      color: white;
+      margin-left: -100px;
+    }
+    .carton{
+      background-color: green;
+      height: 100px;
+      margin-left: -490px;
+      width: 2000px;
+      margin-bottom: 50px;
+      margin-top: 30px;
+     
+    
+    }
+    .logonom{
+      margin-right: 700px;
+      margin-left: 10px;
+    }
+    .p1{
+      color: black;
+    }
+    
+    li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+
+}
+a:hover{
+    color: blue;
+}
+.navbar a{
+color:black;
+text-decoration: none;
+/*margin-left: 10px;*/
+font-weight: 700px;
+font-size: 1em;
+
+}
+.bouton{
+margin-top: -80px;
+display: flex;
+margin-left: 40%;
+font-size: 1rem;
+font-weight: 700px;
+list-style: none;
+text-decoration: none;
+gap: 2rem;
+
+
+}
+.card{
+transition: all 0.3s;
+background-color: black;
+color: white;
+}
+.card:hover{
+transform: scale(1.5);
+cursor: pointer;
+
+}
+.card-text{
+color:white;
+}
+.card::after{
+content: '';
+position: absolute;
+background-color: red;
+translate: -50% -50%;
+z-index:-1;
+}
+
+/*border animer*/
+.box{
+position: relative;
+width: 900px;
+height: 850px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 2em;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 40px;
+overflow: hidden;
+align-items: center;
+margin-right: 1000px;
+margin-left: -300px;
+margin-top: -200px;
+
+
+
+}
+.box p{
+z-index: 2
+
+}
+.box::before{
+content: '';
+position: absolute;
+width: 170px;
+height: 140%;
+background:linear-gradient(blue, #d500f9,red);
+
+animation: rotate 10s linear infinite;
+
+
+}
+.box::after{
+content: '';
+position: absolute;
+background:#0e1538;
+padding: 50px;
+
+inset: 5px;
+
+
+}
+@keyframes rotate{
+from{
+    transform: rotate(0deg);
+}
+    to{
+        transform: rotate(360deg);
+    }
+}
+.object{
+  align-items: center;
+  margin-left: 600px;
+  margin-top: -850px;
+}
+.obj{
+  margin-top: -500px;
+}
+
+ /*footer*/
+ .background{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 200px;
+
+
+}
+.background .image{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 100;
+    animation: infinite animation1;
+    animation-duration: 5s;
+
+}
+/*
+@keyframes animation1 {
+    form{
+        transform: scale(1);
+    }to{
+        transform: scale(2);
+    }
+    
+}*/
+.text-box{
+    position: absolute;
+    right: 15%;
+    bottom: -2px;
+    z-index: 10;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0 32px 80px rgba(0,0,0,.24);
+    padding: 45px;
+    border-radius: 6px;
+}
+.text-box span{
+    font-weight: bold;
+}
+.text-box h3{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text-box p{
+    margin-bottom: 25px;
+}
+.text-box h6{
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+ .boutton i{
+    color: red;
+}
+.boutton:hover i{
+    color: blue;
+}
+/*DUKORE AMABOUTON*/
+.ACC{
+  padding: 5px;
+  border-radius: 5px;
+  background-color:black;
+}
+.mobil{
+  color: white;
+}
+.footereddy{
+  background-color: #0e1538;
+  padding: 100px;
+  /*background-image: url(image/DSC_0130-768x512.jpg);*/
+}
+.copyright{
+  color: white;
+}
+.credits{
+  color: white;
+}
+.ACC{
+  color: white;
+
+      padding: 5px;
+      border-radius: 5px;
+      background-color:black;
+
+  
+}
+.bouton a:hover{
+  color: blue;
+  
+}
+
+
+
+
+
+
+
+/* button phone YA VRAIT*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.bodyy{
+    height: 100vh;
+    background: url(image/riz6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ .lin li{
+    list-style: none;
+}
+.lin li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.lin li a:hover{
+    color: blue;
+}
+.heda{
+    position: relative;
+    padding: 0 2rem;
+    background-color:green;
+}
+.nav{
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .lin{
+    display: flex;
+    gap: 2rem;
+}
+.nav .burger-menu-button{
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+    
+
+}
+.burger-menu{
+  display: none;
+    height: 0px;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 150px;
+    background: yellow;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    
+
+}
+.burger-menu.open{
+    height: 280px;
+    margin-top: 10px;
+    
+}
+
+.burger-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:990px)
+{
+   .heda{
+    /*background: none;*/
+
+   } 
+   .nav .lin{
+    display: none;
+   }
+   .nav .burger-menu-button{
+    display: block;
+   }
+   .burger-menu{
+    display: block;
+   }
+}
+
+
+
+
+
+    </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="images/logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body style="background-color: green;">
+
+  <!-- ======= Header ======= -->
+  <!--<center><div>
+    <a href="#/"><img src="img/france.jpg" width="20rem" height="20rem"></a>
+    <a href="#/"><img src="img/englaiterre.jpg" width="20rem" height="20rem"></a>
+     <a href="#"><img src="img/burundi.jpg" width="20rem" height="20rem"></a>
+     <a href="#"><img src="img/tanzania.jpg" width="20rem" height="20rem"></a>
+    </div>
+  </center>
+    <br>
+    <!--<center><div>
+      <a href="http://localhost/langue/ababo_burundifrancais/"><img src="img/france.jpg" width="20rem" height="20rem"></a>
+      <a href="http://localhost/langue/ababo_burundianglais/"><img src="img/englaiterre.jpg" width="20rem" height="20rem"></a>
+       <a href="http://localhost/langue/ababo_burundikirundi/"><img src="img/burundi.jpg" width="20rem" height="20rem"></a>
+       <a href="http://localhost/langue/ababo_burundiswahili/"><img src="img/tanzania.jpg" width="20rem" height="20rem"></a>
+      </div>
+    </center>
+      <br>-->
+  <h1 style="margin-top: -10px;"><MARK><marquee  class="titre">BIENVENUE DANS LA SOCIETE ABABO-BURUNDI(s.a)</marquee></MARK></h1>
+  <div class="bodyy">
+<header class="heda">
+    <div class="nav">
+    
+
+<div class="log">
+  <img style='width: 100px;height: 100px;border-radius: 50%;' src="images/logo1.jpg" alt="Logo">
+  <a href="#"class="logii" style="text-decoration: none;"><span class="span1" style="color: red;">AB</span><span class="span2" style="color: white;">ABO</span><span class="span3" style="color: yellow;">-BURUNDI <p class="ano"></p><p></p></span></a></div>
+    <!--<a href="">devhated</a>-->
+
+<ul class="lin"  style="margin-right: 200px;">
+   <!-- <li><a href="">Accueil</a></li>
+    <li><a href="">service</a></li>
+    <li><a href="">contact</a></li>
+    <li><a href="">A propos</a></li>-->
+
+    <li><a href="index.html"  class="ACC">Accueil</a></li>
+    <li><a href="services.html"class="ACC">Domaines</a></li>
+    <li><a href="realisations.html" class="ACC">Réalisations</a></li>
+             
+    <li><a href="apropos.html"  class="ACC">A propos</a></li>
+    <li><a href="contacts.html" class="ACC">Contact</a></li>
+
+</ul>
+<!--<div class="btnnom">
+    <a href="">Ababo-Burundi</a>
+</div>-->
+<div class="burger-menu-button">
+    <i class="fa-solid fa-bars"></i>
+</div>
+
+</div>
+<div class="burger-menu">
+    <ul class="lin">
+      
+      <li><a href="index.html"  class="ACC">Accueil</a></li>
+      <li><a href="services.html"class="ACC">Domaines</a></li>
+      <li><a href="realisations.html" class="ACC">Réalisations</a></li>
+               
+      <li><a href="apropos.html"  class="ACC">A propos</a></li>
+      <li><a href="contacts.html" class="ACC">Contact</a></li>
+    
+        <!--<li><a href="hero">Accueil</a></li>
+        <li><a href="media">Media</a></li>
+        <li><a href="about">A propos</a></li>
+        <li><a href="contact">Contact</a></li>
+        <div class="divider"></div>
+        <div class="buttons-burger-menu">
+            <a href="#" class="action">Ababo-Burundi</a>
+           
+        </div>-->
+
+    </ul>
+    
+    </div>
+
+</header>
+<script>
+    const burgerMenuButton=document.querySelector('.burger-menu-button')
+    const burgerMenuButtonIcon=document.querySelector('.burger-menu-button i')
+    const burgerMenu=document.querySelector('.burger-menu')
+
+burgerMenuButton.onclick=function(){
+    burgerMenu.classList.toggle('open')
+    const isOpen=burgerMenu.classList.contains('open')
+    burgerMenuButtonIcon.classList=isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+}
+   </script>
+</div>
+
+
+
+
+
+<section id="hero" class="hero" style="margin-top: 15px;">
+    
+    
+    <!--<div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">-->
+           <!-- <h2 data-aos="fade-down" style="color: white;">Société&nbsp;<span style="color:white;">ABABO-Burundi s.a</span></h2>
+            <p data-aos="fade-up">Une société anonyme(SA)enregistrée à l'Agence de Développement du Burundi</p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-item active" style="background-image: url(image/mura1.jpg)"></div>
+      <div class="carousel-item active" style="background-image: url(image/mura2.jpg)"></div>
+      <div class="carousel-item active" style="background-image: url(image/imag1.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(image/imag2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(image/imag3.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  
+    
+
+  
+  <!-- End Hero Section -->
+ 
+    
+
+      <!--<a href="index-2.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+       <!--<img src="assets/img/logo.jpg" alt=""> 
+        <h1>abababoburundi<span>.</span></h1>-->
+       
+        <!--fin titre igendagenda-->
+      
+         <!-- debut logo nizina ryumutwe riri hande ya logo-->
+       
+
+     <!-- <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index-2.html" class="active">ACCUEIL</a></li>
+          <li><a href="about.html">QUI SOMMES-NOUS?</a></li>
+          <li><a href="services.html">DOMAINES</a></li>
+          <!--<li><a href="projects.html">Projects</a></li>-->
+          <!--<li><a href="blog.html">REALISATIONS</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+ 
+
+  <!-- ======= Hero Section ======= -->
+   <!--
+  <section id="hero" class="hero">
+    
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 data-aos="fade-down">Société&nbsp;<span>ABABO-Burundi s.a</span></h2>
+            <p data-aos="fade-up">Une société anonyme(SA)enregistrée à l'Agence de Développement du Burundi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(images/mes1.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(images/mes2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(images/mes3.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  -->
+
+  
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+   
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features section-bg">
+      <div class="container" data-aos="fade-up">
+<center><h2>Qui sommes-nous?</h2></center>
+<p style="color: black;" >La société ABABO-BURUNDI est Une société anonyme(SA)enregistrée à l'Agence de Développement du Burundi.
+        <ul class="nav nav-tabs row  g-2 d-flex">
+
+         <!-- <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>NDUWINA Tatien</h4>
+              <h4>IRAKOZE Sammuel</h4>-->
+            </a>
+          </li><!-- End tab nav item -->
+
+           <!--<li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+             <h4>IRAKOZE Sammuel</h4>
+            </a><!-- End tab nav item -->
+
+          <!--<li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Explica</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <!--<li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Nostrum</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content">
+
+         <!-- <div class="tab-pane active show" id="tab-1">-->
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <p style="color: red; font-size: 20px;">
+                   Historique
+                  </p>
+
+                <p style="color: black;">
+                    L’entreprise ABABO BURUNDI. a été agréée le 29/08/2023. Elle a commencé ses activités en 2022 avec un effectif de 2 personnes qui faisait des réunion sur watsapp alors que personne ne connait l’autre 
+                </p>
+                <p style="color: black;">
+                    Apres cela l’entreprise n’a cessé de croitre. On a eu une grande partie des actionnaires qui faisait des réunions avant même la naissance de la société
+                </p>
+                <p style="color: black;">
+                    avant l’agrement la société a pris une decision d’acheter un terrain avec une sperficie de plus de 4 ha en province de CANKUZO. 
+                  </p>
+                  <p style="color: red; font-size: 20px;">
+                    Mission et vision
+                  </p>
+                 
+				<p style="color: black;">
+                    Grâce à sa politique d’innovation de produits adaptés à tous les segments de la clientèle et son vaste réseau de distribution, ABABO BURUNDI s’est donné pour mission d’offrir à sa clientèle des produits de très bonne qualité à des prix très compétitifs.
+            </p>
+            <p style="color: black;">
+            Avec le développement de produits plus innovants et attrayants, ABABO ambitionne de devenir un leader régional de la savonnerie bio.
+        </p>
+       <!-- <br>
+        <p style="color: red; font-size: 20px;">
+          Nos valeurs:
+				</p>
+				
+          <p style="color: black;">
+            ABABO BURUNDI a développé un ensemble de valeurs basiques qui nous guident dans toutes les étapes de développement de nos activités:
+          </p>
+          <p style="color: black;">
+            La qualité: création et maintien du haut standard de qualité de nos produits
+          </p>
+          <p style="color: black;">
+            La confiance: s’assurer que les produits livrés correspondent aux attentes de la clientèle
+          </p>
+          <p style="color: black;">
+            La performance: orientations de toutes les activités vers l’amélioration de nos performances
+          </p>
+          <p style="color: black;">
+            La fiabilité: s’assurer que toutes les livraisons se font dans les délais convenus.
+          </p>
+          <p style="color: black;">
+            L’environnement : respecter la nature en produisant des savons bio par une procédure de saponification froide du savon qui respecte l’environnement.
+          </p>
+          -->
+          
+          
+
+
+
+
+        
+              </div>
+             <div class="col-lg-6 order-1 order-lg-1 text-center" data-aos="fade-up" data-aos-delay="200">
+                <p style="color: blue;"><i>2 personnes qui faisait des réunion sur watsapp alors que personne ne connait l’autre</i></p>
+                   <img src="image/deux.jpg" alt="" class="img-fluid" style="height: 300px;  width: 300px; "><br></br>
+                   <p style="color:blue;"><i>Réunion de préparation </i></p>
+                   <img src="image/reunion1.gif" alt="" class="img-fluid" style="height: 200px;width: 300px;"><br></br>
+                   <p style="color:blue;"><i>Lors de l’achat du terrain en province de CANKUZO  </i></p>
+                   <img src="image/cankuzo1.gif" alt="" class="img-fluid" style="height: 200px; width: 300px;">
+              </div>
+            </div>
+
+
+
+
+
+            <!--<ul class="nav nav-tabs row  g-2 d-flex">
+
+             <!-- <li class="nav-item col-3">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                  <h4>NDUWINA Tatien</h4>
+                </a>
+              </li><!-- End tab nav item -->
+    
+               <!--<li class="nav-item col-3">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                <!-- <h4>IRAKOZE Sammuel</h4>-->
+                </a><!-- End tab nav item -->
+    
+              <!--<li class="nav-item col-3">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                  <h4>Explica</h4>
+                </a>
+              </li><!-- End tab nav item -->
+    
+              <!--<li class="nav-item col-3">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                  <h4>Nostrum</h4>
+                </a>
+              </li><!-- End tab nav item -->
+    
+            </ul>
+
+
+
+
+
+           <!--<div class="tab-content">
+
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                   <!-- <h3>Vice-Président  de la société ABABO-Burundi</h3>-->
+                    <p style="color: black;">
+                      <!--La société Abarimyi n'Aborozi bo mu Burundi(ABABO-BURUNDI en sigle) est une Communauté des Agriculteurs et l'Elevages
+                     <!-- L'objectif est de rassembler les coopératives et de travailler en synergie pour augmenter la production et atteindre la vision du chef de l'Etat
+              de faire du Burundi, un pays émérgent en 2040 et pays développé en 2060.-->
+                    </p>
+            <p style="color: black;">
+              <!--qui veulent investir dans plusieurs domaines nottament-->
+            <!--Elle a fait savoir que la société englobe les coopératives opérant dans les nouvelles provinces de Butanyerera, Bujumbura, Buhumuza, Burunga et Gitega
+            Elle a également indique les pricipaux projets mis en avant qui sont les secteurs de l'agriculture, l'élevage, le transport et lesdits projets seront executés dans les 
+            cinq nouvelles provinces.-->
+            </p>
+            <p style="color: black;">
+             <!-- "Commerce, Import, Export et Transport, ...... " pour contribuer dans le développement du pays et des actionnaires-->
+            <!--Elle interpelle les coopératives qui ont surtout de petits capitaux, a rejoindre la société.Elle les a invitées a etablir des projets de développement pour qu'ils soient financés 
+            </p>-->
+                 
+                  </div>
+                  <!--<div class="col-lg-6 order-1 order-lg-1 text-center" data-aos="fade-up" data-aos-delay="200">
+                   <!-- <img src="image/Sammuel.JPG" alt="" class="img-fluid">
+                    <p style="color: black;"><i> Vice-Président  de la société</i></p>-->
+                  </div>
+                </div>
+    
+
+
+
+
+
+            
+          </div><!-- End tab content item -->
+
+         <!-- <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Vice-Président  de la société ABABO-Burundi</h3>
+                <p class="fst-italic" style="color: black;">
+                <!--- <strong>Une plus value pour les jeunes membres des coopératives ayant de petits capitaux </strong>
+                </p>
+				<p style="color: black;">
+				Les jeunes avec des coopératives de petits capitaux auront une plus value car une fois leurs coopératives rassemblées dans la société, ils recevront des crédits pour augmenter leurs capitaux.
+				</p>-->
+               
+              <!--</div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="images/samu.png" alt="" class="img-fluid">
+              	<p style="color: black;"><i> Vice-Président  de la société</i></p>-->
+
+			  </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <!--<div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Voluptatibus commodi accusamu</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <!--<div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Omnis fugiat ea explicabo sunt</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        <!--</div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Our Projects Section ======= -->
+    <!--<section id="projects" class="projects">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Projects</h2>
+          <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-remodeling">Remodeling</li>
+            <li data-filter=".filter-construction">Construction</li>
+            <li data-filter=".filter-repairs">Repairs</li>
+            <li data-filter=".filter-design">Design</li>
+          </ul><!-- End Projects Filters -->
+
+          <!--<div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+          <!--</div><!-- End Projects Container -->
+
+        <!--</div>
+
+      </div>
+    </section><!-- End Our Projects Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!--<section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+        </div>
+
+        <div class="slides-2 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!--<div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!--<div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!--<div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!--<div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          <!--</div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <!--<section id="recent-blog-posts" class="recent-blog-posts">
+      <div class="container" data-aos="fade-up">
+
+    
+    
+  <!--<div class=" section-header">
+        <h2>Recent Blog Posts</h2>
+        <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
+      </div>
+
+      <div class="row gy-5">
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+              <span class="post-date">December 12</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+
+              <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                </div>
+              </div>
+
+              <hr>
+
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <!--<div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
+              <span class="post-date">July 17</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+
+              <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                </div>
+              </div>
+
+              <hr>
+
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <!--<div class="col-xl-4 col-md-6">
+          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
+              <span class="post-date">September 05</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+
+              <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                </div>
+              </div>
+
+              <hr>
+
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+      <!--</div>
+
+      </div>
+    </section>
+    <!-- End Recent Blog Posts Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!--<footer  class="footereddy">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3 style="color: white;">ABABO-BURUNDI</h3>
+              <p>
+                Quartier BWIZA <br>
+                Zone BWIZA, Commune MUKAZA<br><br>
+				 Province Bujumbura, Burundi<br><br>
+                <strong>Phone:</strong> (+257)71 155 445/66 318 848<br>
+                <strong>Email:</strong> info.ababo@gmail.com<br>
+              </p>
+            
+            </div>
+          </div><!-- End footer info column-->
+
+          <!--<div class="col-lg-2 col-md-3 footer-links">
+            <h6 style="color: white;">LIENS UTILES</h6>
+            <ul>
+              <li><a href="index-2.html">Accueil</a></li>
+              <li><a href="about.html">Domaines</a></li>
+              <li><a href="service.html">Réalisations</a></li>
+              <li><a href="blog.html">A propos</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <!--<div class="col-lg-2 col-md-3 footer-links">
+            <h6 style="color: white;">DOMAINES D'ACTIVITES</h6>
+            <ul>
+              <li><a href="#">Objectif</a></li>
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Vision</a></li>
+              <li><a href="#">Valeurs</a></li>
+              
+            </ul>
+          </div><!-- End footer links column-->
+    <!--<div class="col-lg-2 col-md-3 footer-links">
+            <h6 style="color: white;">NOS PATERNAIRES</h6>
+            <ul>
+              <li><a href="#">edmond</a></li>
+              <li><a href="#">thierry</a></li>
+              <li><a href="#">burundi</a></li>
+              <li><a href="#">bbbbhhttt</a></li>
+              <li><a href="#">uiijjhyttffde</a></li>
+			        
+			</ul>
+          </div><!-- End footer links column-->
+    
+
+       <!-- </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span> Société ABABO-Burundi 2025</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+         <!-- Design & Developement by <a href="ed.html">DevHatEd</a>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-whatsapp"></i></a>
+                </li>
+              </ul>
+
+          </div>
+
+      </div>
+
+  </div>
+
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+  <footer  class="footereddy">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-3">
+            <div class="footer-info">
+              <h4 style="color: yellow;">ABABO-BURUNDI</h4>
+              <p>
+                Pays : Burundi<br></br>
+                Province : Bujumbura Mairie<br></br>
+                Commune : MUKAZA<br></br>
+                
+                Zone : BWIZA<br></br>
+                Quartier : BWIZA, 6ème Avenue N°6 <br></br>
+                
+                
+                <strong>Téléphone:</strong> +257 68 725 456<br></br>
+                <strong>Email:</strong> info.ababo@gmail.com<br></br>
+                
+              </p>
+            
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-3 col-md-3 footer-links">
+            <h6 style="color:yellow; margin-left: 10px;">LIENS UTILES</h6>
+            <p style="margin-left: 10px;">
+              Accueil<br></br>
+              Domaines<br></br>
+              Réalisations<br></br>
+              A propos</br><br>
+              Contacts<br></br>
+            </p>
+             
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-6 col-md-6 footer-links">
+            <h6 style="color: yellow;">DOMAINES D'ACTIVITES</h6>
+            <p style="margin-left: px;">
+              Agricultures, Elevages et Commerce<br></br>
+              Importation et exportation des produits et matériaux-pastoreaux<br></br>
+
+              Centre d'incubation et transiformation agro-pastoral<br></br>
+              Transport des personnes et biens matériels<br></br>
+              Création des institutions des finances<br></br>
+              Logistique agro-pastorale<br></br>
+
+            </p>
+           
+          </div><!-- End footer links column-->
+
+
+
+          <!--<div class="col-lg-3 col-md-3 footer-links">
+            <h6 style="color: yellow;">NOS PATERNAIRES</h6>
+            <p style="margin-left: px;">
+              FIDA<br></br>
+              fao<br></br>
+              edmond<br></br>
+              thyerry<br></br>
+             
+
+            </p>
+           
+          </div>-->
+   <!--<div class="col-lg-3 col-md-3 footer-links">
+      
+            <h6 style="color: yellow; margin-left: 80px;">NOS PATERNAIRES</h6>
+            <p style="margin-left: 100px; align-items: center;">
+              FIDA<br></br>
+              fao<br></br>
+              edmond<br></br>
+              thyerry<br></br>
+            </p>
+            
+          </div><!-- End footer links column-->
+    
+
+        
+
+<hr  style="color: white;">
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span> Société ABABO-Burundi 2025</span></strong>.
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          Design & Developement by <a href="ed.html">DevHatEd</a>
+        </div>
+      </div>
+      
+      <!--<div class="col-md-5 col-lg-4" style="margin-left:700px ; margin-top: -50px;">-->
+          <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://chat.whatsapp.com/Bu0ZqN1r7xwDy3sP2hcoxm" class="btn floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-whatsapp"></i></a>
+                </li>
+              </ul>
+
+          </div>
+
+      </div>
+
+  </div>
+
+
+      </div>
+    </div>
+  </center>
+
+  </footer>
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+            
+
+</body>
+
+
+<!-- Mirrored from www.abababoburundi.bi/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jan 2025 15:34:21 GMT -->
+</html>
